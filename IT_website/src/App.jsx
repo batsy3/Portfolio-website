@@ -1,30 +1,37 @@
 import React from "react";
 import styles from "./style";
+import {
+  Billing,
+  Business,
+  CTA,
+  CardDeal,
+  Clients,
+  Footer,
+  Hero,
+  Navbar,
+  Stats,
+  Testimonials,
+} from "./components";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
     {/* navigation div */}
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        Navbar
+        <Navbar />
       </div>
     </div>
-{/* hero section */}
+    {/* hero section */}
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        hero section
+        <Hero />
       </div>
     </div>
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        Stats
-        Business
-        Carddeal
-        Testimonials
-        clients
-        cta
-        Footer
+        <Stats /> <Business /> <CardDeal /> <Testimonials /> <Clients /> <CTA />
+        <Footer />
       </div>
     </div>
   </div>
