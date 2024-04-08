@@ -25,6 +25,7 @@ const Billing = () => {
         </p>
         <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
           <img src={apple} alt="apple_store" className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer"  />
+          <img src={google} alt="google_play" className="w-[128px] h-[42px] object-contain cursor-pointer"  />
         </div>
       </div>
     </section>
